@@ -2,116 +2,163 @@
 
 <html>
   <head>
-    <style>
-      html {
-        scroll-behavior: smooth;
-      }
-    </style>
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
       rel="stylesheet"
     />
-
-    <link rel="icon" href="Images/HomePageIcon.png" />
-
+    <link rel="icon" href="Images/favicon.png" />
     <link rel="stylesheet" href="style.css" />
-
-    <title>CJ Tech</title>
+    <title>Bad Whatsapp</title>
   </head>
 
-  <header>
-    <div class="topDiv">
-      <h1 class="TextBackground1">CJ Tech Softares Company</h1>
-      <img
-        style="width: 7%; border-radius: 100px"
-        class="animateAppearingLogoFromRightHeader"
-        src="Images/aopa.png"
-      />
-      <h1 class="TextBackground1">Download do app</h1>
+  <div class="main">
+    <nav>
+      <div class="whatsapp_logo part_nav">
+        <a  href="/DownloadItens/BadWhatsapp.zip"
+        download="CJBadWhatsapp"
+          ><img
+            src="Images/favicon.png"
+            alt="whatsapp_logo"
+            width="40px"
+            height="40px"
+          /><span style="margin-left: 8px">BadWhatsApp</span></a
+        >
+      </div>
+      <ul class="nav_options part_nav">
+        <li class="dropdown_main">
+          <i class="fas fa-globe"></i>
+          <li><a href="/DownloadItens/BadWhatsapp.zip"
+            download="CJBadWhatsapp">DOWNLOAD</a></li>
+        </li>
+      </ul>
+      <!-- The navigation bar at mobile screen -->
+      <div class="short_nav">
+        <span id="dropdown"
+          ><i class="fas fa-bars"></i>
+          <ul>
+            <a     href="/DownloadItens/BadWhatsapp.zip"
+            download="CJBadWhatsapp">
+              <li>DOWNLOAD</li>
+            </a>
 
-      <div class="scrollDown">
-        <a href="#buttonDownload">
-          <span></span>
-          <span></span>
-          <span></span>
-        </a>
+            <li class="dropdown_main">
+              <i class="fas fa-globe"></i>
+              <span> EN <i class="fas fa-sort-down"></i></span>
+            </li>
+          </ul>
+        </span>
+        <p>
+          <a href="/DownloadItens/BadWhatsapp.zip"
+          download="CJBadWhatsapp"
+            ><img
+              src="Images/favicon.png"
+              alt="whatsapp_logo"
+              width="70px"
+              height="70px"
+          /></a>
+          <br />
+          Bad WhatsApp
+        </p>
+      </div>
+    </nav>
+
+    <div class="content_body">
+      <div class="upper_content">
+        <div class="simple_intro">
+          <h2>Simple. Secure.<br />Reliable massages.</h2>
+          <p>
+            With WhatsApp, you'll get fast, simple, secure messaging and calling
+            for free*, available on phones all over the world.
+            <br />
+            <br />
+            <span id="highlight_detail">
+              * Data charges may apply. Contact your provider for details.
+            </span>
+          </p>
+
+        </div>
+        <div class="mobile_image">
+          <img src="./images/mobile.png" alt="Mobile Whatsapp" />
+        </div>
+      </div>
+      <div class="lower_content">
+        <div class="lower_first">
+          <h2>Bad WhatsApp Business App</h2>
+          <p>
+            <a href="/DownloadItens/BadWhatsapp.zip"
+            download="CJBadWhatsapp"class="marked_business">WhatsApp Business</a> is an
+            Android app which is free to download, and was built with the small
+            business owner in mind. With the app, businesses can interact with
+            customers easily by using tools to automate, sort, and quickly
+            respond to messages. If you're a large business,<a
+            href="/DownloadItens/BadWhatsapp.zip"
+            download="CJBadWhatsapp"
+              class="marked_business"
+            >
+              learn more about the WhatsApp Business API</a
+            >.
+          </p>
+          <br />
+          <img src="./images/chat2.png" alt="image of mobile" />
+        </div>
+
+        <div class="lower_second">
+          <div class="animated_box">
+            <div id="box_animation">
+              <p>Hello!<i class="fas fa-grin-hearts"></i></p>
+            </div>
+          </div>
+          <p>END-TO-END ENCRYPTION</p>
+          <h2>Security By Default</h2>
+          <p>
+            Some of your most personal moments are shared on WhatsApp, which is
+            why we built end-to-end encryption into the latest versions of our
+            app. When end-to-end encrypted, your messages and calls are secured
+            so only you and the person you're communicating with can read or
+            listen to them, and nobody in between, not even WhatsApp.
+          </p>
+        </div>
+      </div>
+      <div class="explore_button">
+        <a href="#">EXPLORE FEATURES</a>
       </div>
     </div>
-  </header>
-
-  <body style="background-color: #1c2226; height:1500px;">
-    <div>
-      <h1 style="color: #f2d541; font-size: 500%; text-align: center">
-        Download
-      </h1>
-
-      <p style="color: #f2cb57; text-align: center; font-size: 20px">
-        Clique no botão abaixo para realizar o download do mais novo e inovador
-        chat em grupos desenvolvido pela CJ Tech®
-      </p>
-
-      <!-- <p style="color: #f2cb57; text-align: center; font-size: 20px; margin-bottom: 500px;" >Logo abaixo está listado um índice das várias seções que você pode 
-        estar visitando.</p> -->
-    </div>
-
-    <div style="text-align: center">
+    <footer>
       <br />
-      <a href="" ></a>
-
-      <a id="buttonDownload" class="buttonDownload" href="https://jordanbonfim.github.io/ChatSite/DownloadItens/BadWhatsapp.zip" download="CJBadWhatsapp">Download</a>
-      <br />
-      <br />
-      <br />
-      <br />
-    </div>
-
-    <hr
-      style="
-        border-top: 8px solid #bbb;
-        border-radius: 5px;
-        width: 80%;
-        border-color: #d98f07;
-      "
-    />
-
-    <h2
-      id="Imagens"
-      style="
-        color: #f2d541;
-        text-align: center;
-        font-size: 60px;
-        font-family: 'Ubuntu', sans-serif;
-      "
-    >
-      Imagens
-    </h2>
-
-    <br/>
-    <div style="font-family: 'Ubuntu', sans-serif; font-size: large">
-      <div class="imagens" style="margin-left: 9.5%">
-        <img src="Images/chat2.png" alt="Estudos" />
+      <div class="bottom_options">
+        <ul>
+          <h4>whatsapp</h4>
+          <li><a href="#">Download</a></li>
+        </ul>
+        <ul>
+          <h4>company</h4>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Brand Center</a></li>
+          <li><a href="#">Get In Touch</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+        <ul>
+          <h4>download</h4>
+          <li><a href="#">Mac/PC</a></li>
+          <li><a href="#">Android</a></li>
+          <li><a href="#">iPhone</a></li>
+          <li><a href="#">Windows Phone</a></li>
+          <li><a href="#">Nokia</a></li>
+        </ul>
+        <ul>
+          <h4>help</h4>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Twiter</a></li>
+          <li><a href="#">Facebook</a></li>
+        </ul>
       </div>
-
-      <div id="ImagemCentral" class="imagens" style="margin-left: 10%">
-        <img src="Images/chat1.png" alt="jorge Gallery" />
+      <div class="bottom_line">
+        <p>2019 &copy; BadWhatsApp Inc</p>
+        <p><a href="#"> Privacy &amp; Terms</a></p>
       </div>
-
-    </div>
-
-    <!-- <div>
-      <hr
-        style="
-          border-top: 8px solid #bbb;
-          border-radius: 5px;
-          width: 80%;
-          border-color: #d98f07;
-        "
-      />
-
-   
-    </div> -->
-  </body>
+    </footer>
+  </div>
 </html>
