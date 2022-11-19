@@ -72,7 +72,7 @@ nav a {
   flex-basis: 37%;
 }
 .mobile_image img {
-  width: 60%;
+  width: 100%;
 }
 .upper_content .simple_intro {
   align-self: center;
